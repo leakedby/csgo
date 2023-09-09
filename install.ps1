@@ -251,8 +251,8 @@ $rtUserCfg = InstallUserCfg;
 # Overview
 $overviewTable = @(
 	[pscustomobject]@{Module="Autoexec";ExitCode="$rtAutoExec"},
-	[pscustomobject]@{Module="ColorMod";ExitCode="$rtColormod"},
-	[pscustomobject]@{Module="SimpleRadar";ExitCode="$rtSimpleRadar"},
+	# [pscustomobject]@{Module="ColorMod";ExitCode="$rtColormod"},
+	# [pscustomobject]@{Module="SimpleRadar";ExitCode="$rtSimpleRadar"},
 	[pscustomobject]@{Module="UserConfig";ExitCode="$rtUserCfg"}
 );
 
